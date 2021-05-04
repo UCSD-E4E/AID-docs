@@ -2,7 +2,7 @@
 Automated Acoustic Species Identification Project Documentation
 
 ## Repositories
-### Original repository, serves as a staging area for experimental subprojects.
+### Original repository, serves as a staging area for experimental subprojects as well as one-off scripts.
 - https://github.com/UCSD-E4E/passive-acoustic-biodiversity
 ### Automated Labeling System, Python package to convert weak audio labels into strong labels. PyHa=Python+Piha
 - https://github.com/UCSD-E4E/PyHa
