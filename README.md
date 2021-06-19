@@ -10,3 +10,5 @@ Automated Acoustic Species Identification Project Documentation
 - https://github.com/UCSD-E4E/Audio_Labeling_System_AID
 ### Intro Assignment that must be completed by prospective team members
 - https://github.com/UCSD-E4E/acoustic-species-id-intro
+### Github Repository for ICML 2021 Reproducability Purposes
+- https://github.com/UCSD-E4E/AID_ICML_2021
