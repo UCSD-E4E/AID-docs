@@ -12,3 +12,4 @@ Automated Acoustic Species Identification Project Documentation
 - https://github.com/UCSD-E4E/acoustic-species-id-intro
 ### Github Repository for ICML 2021 Reproducability Purposes
 - https://github.com/UCSD-E4E/AID_ICML_2021
+- Accepted Paper Title: "Challenges in Applying Audio Classification Models to Datasets Containing Crucial Biodiversity Information"
