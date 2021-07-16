@@ -13,3 +13,6 @@ Automated Acoustic Species Identification Project Documentation
 ### Github Repository for ICML 2021 Reproducability Purposes
 - https://github.com/UCSD-E4E/AID_ICML_2021
 - Accepted Paper Title: "Challenges in Applying Audio Classification Models to Datasets Containing Crucial Biodiversity Information"
+### Fork of Microfaune Github Repository that Encapsulates the Morfi/Stowell Hybrid CNN-RNN WHEN Neural Network
+- https://github.com/UCSD-E4E/microfaune_ai
+- Network is being used in PyHa
