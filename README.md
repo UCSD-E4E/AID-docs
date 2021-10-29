@@ -16,3 +16,6 @@ Automated Acoustic Species Identification Project Documentation
 ### Fork of Microfaune Github Repository that Encapsulates the Morfi/Stowell Hybrid CNN-RNN WHEN Neural Network
 - https://github.com/UCSD-E4E/microfaune_ai
 - Network is being used in PyHa
+### Github Repository for NeurIPS 2021 Reproducability Purposes
+- https://github.com/UCSD-E4E/AID_NeurIPS_2021
+- Accepted Paper Title: "Reducing the Barriers of Acquiring Ground-truth from Biodiversity Rich Audio Datasets Using Intelligent Sampling Techniques"
