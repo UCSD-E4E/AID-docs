@@ -22,3 +22,7 @@ Automated Acoustic Species Identification Project Documentation
 ### Fork of BirdNET-lite the Cornell state of the art multi-class bird classifier
 - https://github.com/UCSD-E4E/BirdNET-Lite
 - We have added in some features for batch processing and will implement some other parameters to customize this repository for our needs.
+### Repository that gives nice HTML map output based on Microfaune Global Scores
+- https://github.com/nishantbalaji/e4e-data-visualization
+- Scripts used for this blogpost: http://e4e.ucsd.edu/news-and-updates/measuring-bird-presence-in-the-peruvian-amazon-using-neural-network-predictions
+- Can technically be used for things beyond the Microfaune Global Scores
