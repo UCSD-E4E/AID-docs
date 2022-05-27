@@ -1,5 +1,5 @@
 # AID-docs
-Automated Acoustic Species Identification Project Github Repository 
+Automated Acoustic Species Identification Project Github Repository Overview 
 
 ## Repositories
 ### Original repository, serves as a staging area for experimental subprojects as well as one-off scripts.
