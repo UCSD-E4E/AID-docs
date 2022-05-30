@@ -39,3 +39,6 @@ Automated Acoustic Species Identification Project Github Repository Overview
 - https://github.com/UCSD-E4E/Crowdsourced_Audio_Annotation_Unsupervised_Clustering_Analysis
 - Hope is that we can find outliers, compare how individuals annotate, and compare how people annotate different species
 - Credit to Edmundo Zamora and Sourabh Murali
+### Fork of opensoundscape which we use to build multi-species classifiers.
+- https://github.com/UCSD-E4E/opensoundscape
+- Will be modified for compatibility with Kaleidoscope annotation format.
