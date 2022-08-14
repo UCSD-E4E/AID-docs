@@ -42,3 +42,7 @@ Automated Acoustic Species Identification Project Github Repository Overview
 ### Fork of opensoundscape which we use to build multi-species classifiers.
 - https://github.com/UCSD-E4E/opensoundscape
 - Will be modified for compatibility with Kaleidoscope annotation format.
+## Diagrams explaining how models relate to one another in automated labeling & retraining pipelines
+- https://docs.google.com/presentation/d/1BJxxCS60oty269rwHHQjcDhKz29ltcLQ-eEJ6_9RTUw/edit?usp=sharing
+- Made during REU2022
+- Credit to Samantha Prestrelski
