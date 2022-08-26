@@ -12,7 +12,9 @@ Automated Acoustic Species Identification Project Github Repository Overview
 - Credit to Sean Perry
 ### Intro Assignment that must be completed by prospective team members
 - https://github.com/UCSD-E4E/acoustic-species-id-intro
-- Credit to Nathan Hui and Jacob Ayers
+   -  Credit to Nathan Hui and Jacob Ayers
+- https://github.com/UCSD-E4E/acoustic-species-pyrenote-intro
+   -  Credit to Sean Perry
 ### Github Repository for ICML 2021 Reproducability Purposes
 - https://github.com/UCSD-E4E/AID_ICML_2021
 - Accepted Paper Title: "Challenges in Applying Audio Classification Models to Datasets Containing Crucial Biodiversity Information"
