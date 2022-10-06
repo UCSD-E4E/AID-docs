@@ -50,3 +50,6 @@ Automated Acoustic Species Identification Project Github Repository Overview
 - https://docs.google.com/presentation/d/1BJxxCS60oty269rwHHQjcDhKz29ltcLQ-eEJ6_9RTUw/edit?usp=sharing
 - Made during REU2022
 - Credit to Samantha Prestrelski
+### Automated Weakly to Strongly Labeling Machine Learning Pipeline
+- https://github.com/UCSD-E4E/AID-WTS-Pipeline
+- Credit to Jacob Ayers and Sean Perry 
