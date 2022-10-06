@@ -10,10 +10,12 @@ Automated Acoustic Species Identification Project Github Repository Overview
 ### Pyrenote: Human Labeling System, Javascript frontend and Python backend web app to acquire human temporal labels on audio clips
 - https://github.com/UCSD-E4E/Pyrenote
 - Credit to Sean Perry
-### Intro Assignment that must be completed by prospective team members
-- https://github.com/UCSD-E4E/acoustic-species-id-intro
+### Intro Assignments that must be completed by prospective team members
+- General Intro Assignment
+   -  https://github.com/UCSD-E4E/acoustic-species-id-intro
    -  Credit to Nathan Hui and Jacob Ayers
-- https://github.com/UCSD-E4E/acoustic-species-pyrenote-intro
+- Web Development Intro Assignment
+   - https://github.com/UCSD-E4E/acoustic-species-pyrenote-intro
    -  Credit to Sean Perry
 ### Github Repository for ICML 2021 Reproducability Purposes
 - https://github.com/UCSD-E4E/AID_ICML_2021
