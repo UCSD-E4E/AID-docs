@@ -47,8 +47,8 @@ Automated Acoustic Species Identification Project Github Repository Overview
 - https://github.com/UCSD-E4E/opensoundscape
 - Will be modified for compatibility with Kaleidoscope annotation format.
 ### Diagrams explaining how models relate to one another in automated labeling & retraining pipelines
-- https://docs.google.com/presentation/d/1BJxxCS60oty269rwHHQjcDhKz29ltcLQ-eEJ6_9RTUw/edit?usp=sharing
-- Made during REU2022
+- SRC Presentation: https://docs.google.com/presentation/d/1BJxxCS60oty269rwHHQjcDhKz29ltcLQ-eEJ6_9RTUw/edit?usp=sharing
+- WTS System Diagram: https://www.figma.com/file/TGXgyxX5xLdRxFNy8M9R7e/Acoustic-Species-ID-Systems-Diagram
 - Credit to Samantha Prestrelski
 ### Automated Weakly to Strongly Labeling Machine Learning Pipeline
 - https://github.com/UCSD-E4E/AID-WTS-Pipeline
