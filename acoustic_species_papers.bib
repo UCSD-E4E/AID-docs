@@ -1,3 +1,219 @@
+ 
+@Misc{,
+  note     = {ZSCC: NoCitationData[s0]},
+  title    = {Methods for sound noise reduction},
+  abstract = {Explore and run machine learning code with Kaggle Notebooks {\textbar} Using data from Cornell Birdcall Identification},
+  language = {en},
+  url      = {https://kaggle.com/code/mauriciofigueiredo/methods-for-sound-noise-reduction},
+  urldate  = {2023-08-07},
+}
+
+@InProceedings{,
+  author = {recognition already with small amount of local data},
+  title  = {Domain-specific neural networks improve automated bird sound},
+  file   = {:C\:/Users/seanh/Desktop/mee314003-sup-0001-supplementary.pdf:PDF},
+}
+
+ 
+@Article{Lee2023,
+  author   = {Lee, JoonHo and Lee, Gyemin},
+  journal  = {Neurocomputing},
+  title    = {Unsupervised domain adaptation based on the predictive uncertainty of models},
+  year     = {2023},
+  issn     = {0925-2312},
+  month    = feb,
+  pages    = {183--193},
+  volume   = {520},
+  abstract = {Unsupervised domain adaptation (UDA) aims to improve the prediction performance in the target domain under distribution shifts from the source domain. The key principle of UDA is to minimize the divergence between the source and the target domains. To follow this principle, many methods employ a domain discriminator to match the feature distributions. Some recent methods evaluate the discrepancy between two predictions on target samples to detect those that deviate from the source distribution. However, their performance is limited because they either match the marginal distributions or measure the divergence conservatively. In this paper, we present a novel UDA method that learns domain-invariant features that minimize the domain divergence. We propose model uncertainty as a measure of the domain divergence. Our UDA method based on model uncertainty (MUDA) adopts a Bayesian framework and provides an efficient way to evaluate model uncertainty by means of Monte Carlo dropout sampling. Experiment results on image recognition tasks show that our method is superior to existing state-of-the-art methods. We also extend MUDA to multi-source domain adaptation problems.},
+  doi      = {10.1016/j.neucom.2022.11.070},
+  file     = {:Lee2023 - Unsupervised Domain Adaptation Based on the Predictive Uncertainty of Models.html:URL},
+  keywords = {Unsupervised domain adaptation, Model uncertainty, Predictive variance, Monte Carlo dropout, Image classification},
+  language = {en},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0925231222014618},
+  urldate  = {2023-08-07},
+}
+
+ 
+@TechReport{Fahrbach2023,
+  author   = {Fahrbach, Matthew and Javanmard, Adel and Mirrokni, Vahab and Worah, Pratik},
+  title    = {Learning {Rate} {Schedules} in the {Presence} of {Distribution} {Shift}},
+  year     = {2023},
+  month    = mar,
+  note     = {arXiv:2303.15634 [cs, math, stat] type: article},
+  abstract = {We design learning rate schedules that minimize regret for SGD-based online learning in the presence of a changing data distribution. We fully characterize the optimal learning rate schedule for online linear regression via a novel analysis with stochastic differential equations. For general convex loss functions, we propose new learning rate schedules that are robust to distribution shift, and we give upper and lower bounds for the regret that only differ by constants. For non-convex loss functions, we define a notion of regret based on the gradient norm of the estimated models and propose a learning schedule that minimizes an upper bound on the total expected regret. Intuitively, one expects changing loss landscapes to require more exploration, and we confirm that optimal learning rate schedules typically increase in the presence of distribution shift. Finally, we provide experiments for high-dimensional regression models and neural networks to illustrate these learning rate schedules and their cumulative regret.},
+  annote   = {Comment: 33 pages, 6 figures},
+  doi      = {10.48550/arXiv.2303.15634},
+  file     = {:Fahrbach2023 - Learning Rate Schedules in the Presence of Distribution Shift.pdf:PDF},
+  keywords = {Computer Science - Machine Learning, Mathematics - Optimization and Control, Statistics - Machine Learning},
+  school   = {arXiv},
+  url      = {http://arxiv.org/abs/2303.15634},
+  urldate  = {2023-08-07},
+}
+
+ 
+@TechReport{Boudiaf2023,
+  author   = {Boudiaf, Malik and Denton, Tom and van Merriënboer, Bart and Dumoulin, Vincent and Triantafillou, Eleni},
+  title    = {In {Search} for a {Generalizable} {Method} for {Source} {Free} {Domain} {Adaptation}},
+  year     = {2023},
+  month    = jun,
+  note     = {arXiv:2302.06658 [cs] type: article},
+  abstract = {Source-free domain adaptation (SFDA) is compelling because it allows adapting an off-the-shelf model to a new domain using only unlabelled data. In this work, we apply existing SFDA techniques to a challenging set of naturally-occurring distribution shifts in bioacoustics, which are very different from the ones commonly studied in computer vision. We find existing methods perform differently relative to each other than observed in vision benchmarks, and sometimes perform worse than no adaptation at all. We propose a new simple method which outperforms the existing methods on our new shifts while exhibiting strong performance on a range of vision datasets. Our findings suggest that existing SFDA methods are not as generalizable as previously thought and that considering diverse modalities can be a useful avenue for designing more robust models.},
+  annote   = {Comment: ICML 2023},
+  file     = {:Boudiaf2023 - In Search for a Generalizable Method for Source Free Domain Adaptation.pdf:PDF},
+  keywords = {Computer Science - Machine Learning},
+  school   = {arXiv},
+  url      = {http://arxiv.org/abs/2302.06658},
+  urldate  = {2023-08-07},
+}
+
+@Article{Tang2022,
+  author     = {Tang, Tiantian and Long, Yanhua and Li, Yijie and Liang, Jiaen},
+  journal    = {Int. J. Speech Technol.},
+  title      = {Acoustic Domain Mismatch Compensation in Bird Audio Detection},
+  year       = {2022},
+  issn       = {1381-2416},
+  month      = mar,
+  number     = {1},
+  pages      = {251--260},
+  volume     = {25},
+  abstract   = {Detecting bird calls in audio is an important task for automatic wildlife monitoring, as well as in citizen science and audio library management. This paper presents front-end acoustic enhancement techniques to handle the acoustic domain mismatch problem in bird detection. A time-domain cross-condition data augmentation (TCDA) method is first proposed to enhance the domain coverage of a fixed training dataset. Then, to eliminate the distortion of stationary noise and enhance the transient events, we investigate a per-channel energy normalization (PCEN) to automatic control the gain of every subband in the mel-frequency spectrogram. Furthermore, a harmonic percussive source separation is investigated to extract robust percussive representations of bird call to alleviate the acoustic mismatch. Our experiments are performed on the Bird Audio Detection Task of the IEEE AASP Challenge on Detection and Classification of Acoustic Scenes and Events 2018. Extensive results show that the proposed TCDA leads to a relative 5.02% AUC improvements on mismatch conditions. And also on the cross-domain test set, the proposed percussive features (RPFs), and these RPFs with PCEN significantly improve the baseline with conventional log mel-spectrogram features from 81.79% AUC to 84.46% and 88.68%, respectively. Moreover, we find that combing different front-end features can further improve the system performances.},
+  address    = {Berlin, Heidelberg},
+  doi        = {10.1007/s10772-022-09957-w},
+  issue_date = {Mar 2022},
+  keywords   = {Bird audio detection, Domain mismatch, Harmonic percussive source separation, Data augmentation},
+  numpages   = {10},
+  publisher  = {Springer-Verlag},
+  url        = {https://doi.org/10.1007/s10772-022-09957-w},
+}
+
+ 
+@TechReport{Conde2022,
+  author   = {Conde, Marcos V. and Choi, Ui-Jin},
+  title    = {Few-shot {Long}-{Tailed} {Bird} {Audio} {Recognition}},
+  year     = {2022},
+  month    = jul,
+  note     = {ZSCC: 0000003 arXiv:2206.11260 [cs, eess] type: article},
+  abstract = {It is easier to hear birds than see them. However, they still play an essential role in nature and are excellent indicators of deteriorating environmental quality and pollution. Recent advances in Deep Neural Networks allow us to process audio data to detect and classify birds. This technology can assist researchers in monitoring bird populations and biodiversity. We propose a sound detection and classification pipeline to analyze complex soundscape recordings and identify birdcalls in the background. Our method learns from weak labels and few data and acoustically recognizes the bird species. Our solution achieved 18th place of 807 teams at the BirdCLEF 2022 Challenge hosted on Kaggle.},
+  annote   = {Comment: LifeCLEF2022 (best paper award)},
+  file     = {:Conde2022 - Few Shot Long Tailed Bird Audio Recognition.pdf:PDF},
+  keywords = {Computer Science - Sound, Computer Science - Computer Vision and Pattern Recognition, Computer Science - Machine Learning, Electrical Engineering and Systems Science - Audio and Speech Processing},
+  school   = {arXiv},
+  url      = {http://arxiv.org/abs/2206.11260},
+  urldate  = {2023-08-07},
+}
+
+ 
+@TechReport{Denton2021,
+  author   = {Denton, Tom and Wisdom, Scott and Hershey, John R.},
+  title    = {Improving {Bird} {Classification} with {Unsupervised} {Sound} {Separation}},
+  year     = {2021},
+  month    = oct,
+  note     = {arXiv:2110.03209 [eess] type: article},
+  abstract = {This paper addresses the problem of species classification in bird song recordings. The massive amount of available field recordings of birds presents an opportunity to use machine learning to automatically track bird populations. However, it also poses a problem: such field recordings typically contain significant environmental noise and overlapping vocalizations that interfere with classification. The widely available training datasets for species identification also typically leave background species unlabeled. This leads classifiers to ignore vocalizations with a low signal-to-noise ratio. However, recent advances in unsupervised sound separation, such as {\textbackslash}emph\{mixture invariant training\} (MixIT), enable high quality separation of bird songs to be learned from such noisy recordings. In this paper, we demonstrate improved separation quality when training a MixIT model specifically for birdsong data, outperforming a general audio separation model by over 5 dB in SI-SNR improvement of reconstructed mixtures. We also demonstrate precision improvements with a downstream multi-species bird classifier across three independent datasets. The best classifier performance is achieved by taking the maximum model activations over the separated channels and original audio. Finally, we document additional classifier improvements, including taxonomic classification, augmentation by random low-pass filters, and additional channel normalization.},
+  annote   = {Comment: 5 pages, 3 figures. Examples available at https://bird-mixit.github.io},
+  file     = {:Denton2021 - Improving Bird Classification with Unsupervised Sound Separation.pdf:PDF},
+  keywords = {Electrical Engineering and Systems Science - Audio and Speech Processing},
+  school   = {arXiv},
+  url      = {http://arxiv.org/abs/2110.03209},
+  urldate  = {2023-08-07},
+}
+
+ 
+@TechReport{Conde2021,
+  author   = {Conde, Marcos V. and Shubham, Kumar and Agnihotri, Prateek and Movva, Nitin D. and Bessenyei, Szilard},
+  title    = {Weakly-{Supervised} {Classification} and {Detection} of {Bird} {Sounds} in the {Wild}. {A} {BirdCLEF} 2021 {Solution}},
+  year     = {2021},
+  month    = jul,
+  note     = {arXiv:2107.04878 [cs, eess] type: article},
+  abstract = {It is easier to hear birds than see them, however, they still play an essential role in nature and they are excellent indicators of deteriorating environmental quality and pollution. Recent advances in Machine Learning and Convolutional Neural Networks allow us to detect and classify bird sounds, by doing this, we can assist researchers in monitoring the status and trends of bird populations and biodiversity in ecosystems. We propose a sound detection and classification pipeline for analyzing complex soundscape recordings and identify birdcalls in the background. Our pipeline learns from weak labels, classifies fine-grained bird vocalizations in the wild, and is robust against background sounds (e.g., airplanes, rain, etc). Our solution achieved 10th place of 816 teams at the BirdCLEF 2021 Challenge hosted on Kaggle.},
+  annote   = {Comment: Proceedings Working Notes CEURWS @ CLEF 2021 - BirdCLEF 2021},
+  file     = {:Conde2021 - Weakly Supervised Classification and Detection of Bird Sounds in the Wild. a BirdCLEF 2021 Solution.pdf:PDF},
+  keywords = {Computer Science - Sound, Computer Science - Multimedia, Electrical Engineering and Systems Science - Audio and Speech Processing},
+  school   = {arXiv},
+  url      = {http://arxiv.org/abs/2107.04878},
+  urldate  = {2023-08-07},
+}
+
+ 
+@TechReport{Wisdom2020,
+  author   = {Wisdom, Scott and Tzinis, Efthymios and Erdogan, Hakan and Weiss, Ron J. and Wilson, Kevin and Hershey, John R.},
+  title    = {Unsupervised {Sound} {Separation} {Using} {Mixture} {Invariant} {Training}},
+  year     = {2020},
+  month    = oct,
+  note     = {arXiv:2006.12701 [cs, eess] type: article},
+  abstract = {In recent years, rapid progress has been made on the problem of single-channel sound separation using supervised training of deep neural networks. In such supervised approaches, a model is trained to predict the component sources from synthetic mixtures created by adding up isolated ground-truth sources. Reliance on this synthetic training data is problematic because good performance depends upon the degree of match between the training data and real-world audio, especially in terms of the acoustic conditions and distribution of sources. The acoustic properties can be challenging to accurately simulate, and the distribution of sound types may be hard to replicate. In this paper, we propose a completely unsupervised method, mixture invariant training (MixIT), that requires only single-channel acoustic mixtures. In MixIT, training examples are constructed by mixing together existing mixtures, and the model separates them into a variable number of latent sources, such that the separated sources can be remixed to approximate the original mixtures. We show that MixIT can achieve competitive performance compared to supervised methods on speech separation. Using MixIT in a semi-supervised learning setting enables unsupervised domain adaptation and learning from large amounts of real world data without ground-truth source waveforms. In particular, we significantly improve reverberant speech separation performance by incorporating reverberant mixtures, train a speech enhancement system from noisy mixtures, and improve universal sound separation by incorporating a large amount of in-the-wild data.},
+  annote   = {Comment: Accepted for spotlight presentation at NeurIPS 2020},
+  file     = {:Wisdom2020 - Unsupervised Sound Separation Using Mixture Invariant Training.pdf:PDF},
+  keywords = {Electrical Engineering and Systems Science - Audio and Speech Processing, Computer Science - Machine Learning, Computer Science - Sound},
+  school   = {arXiv},
+  url      = {http://arxiv.org/abs/2006.12701},
+  urldate  = {2023-08-07},
+}
+
+ 
+@InProceedings{Kahl2020,
+  author     = {Kahl, Stefan and Clapp, Mary and Hopping, W. and Goëau, Hervé and Glotin, Hervé and Planqué, Robert and Vellinga, Willem-Pier and Joly, Alexis},
+  title      = {Overview of {BirdCLEF} 2020: {Bird} {Sound} {Recognition} in {Complex} {Acoustic} {Environments}},
+  year       = {2020},
+  month      = sep,
+  abstract   = {Passive acoustic monitoring is a cornerstone of the assessment of ecosystem health and the improvement of automated assessment systems has the potential to have a transformative impact on global biodiversity monitoring, at a scale and level of detail that is impossible with manual annotation or other more traditional methods. The BirdCLEF challenge—as part of the 2020 LifeCLEF Lab [12]—focuses on the development of reliable detection systems for avian vocalizations in continuous soundscape data. The goal of the task is to localize and identify all audible birds within the provided soundscape test set. This paper describes the methodology of the conducted evaluation as well as the synthesis of the main results and lessons learned.},
+  file       = {Full Text PDF:https\://www.researchgate.net/profile/W-Hopping/publication/344893963_Overview_of_BirdCLEF_2020_Bird_Sound_Recognition_in_Complex_Acoustic_Environments/links/5f978ce4a6fdccfd7b825b36/Overview-of-BirdCLEF-2020-Bird-Sound-Recognition-in-Complex-Acoustic-Environments.pdf:application/pdf;ResearchGate Link:https\://www.researchgate.net/publication/344893963_Overview_of_BirdCLEF_2020_Bird_Sound_Recognition_in_Complex_Acoustic_Environments:},
+  shorttitle = {Overview of {BirdCLEF} 2020},
+  url        = {https://www.researchgate.net/publication/344893963_Overview_of_BirdCLEF_2020_Bird_Sound_Recognition_in_Complex_Acoustic_Environments},
+}
+
+ 
+@TechReport{Stacke2019,
+  author   = {Stacke, Karin and Eilertsen, Gabriel and Unger, Jonas and Lundström, Claes},
+  title    = {A {Closer} {Look} at {Domain} {Shift} for {Deep} {Learning} in {Histopathology}},
+  year     = {2019},
+  month    = sep,
+  note     = {arXiv:1909.11575 [cs] type: article},
+  abstract = {Domain shift is a significant problem in histopathology. There can be large differences in data characteristics of whole-slide images between medical centers and scanners, making generalization of deep learning to unseen data difficult. To gain a better understanding of the problem, we present a study on convolutional neural networks trained for tumor classification of H\&E stained whole-slide images. We analyze how augmentation and normalization strategies affect performance and learned representations, and what features a trained model respond to. Most centrally, we present a novel measure for evaluating the distance between domains in the context of the learned representation of a particular model. This measure can reveal how sensitive a model is to domain variations, and can be used to detect new data that a model will have problems generalizing to. The results show how learning is heavily influenced by the preparation of training data, and that the latent representation used to do classification is sensitive to changes in data distribution, especially when training without augmentation or normalization.},
+  annote   = {Comment: 8 pages, 4 figures. Accepted to COMPAY2019: Second MICCAI Workshop on Computational Pathology},
+  file     = {:Stacke2019 - A Closer Look at Domain Shift for Deep Learning in Histopathology.pdf:PDF},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  school   = {arXiv},
+  url      = {http://arxiv.org/abs/1909.11575},
+  urldate  = {2023-08-07},
+}
+
+@InProceedings{Lostanlen2018,
+  author    = {Lostanlen, Vincent and Salamon, Justin and Cartwright, Mark and Mcfee, Brian and Farnsworth, Andrew and Kelling, Steve and Bello, Juan},
+  title     = {Per-Channel Energy Normalization: Why and How},
+  year      = {2018},
+  publisher = {IEEE},
+  abstract  = {In the context of automatic speech recognition and acoustic event detection, an adaptive procedure named perchannel energy normalization (PCEN) has recently shown to outperform the pointwise logarithm of mel-frequency spectrogram (logmelspec) as an acoustic frontend. This article investigates the adequacy of PCEN for spectrogram-based pattern recognition in far-field noisy recordings, both from theoretical and practical standpoints. First, we apply PCEN on various datasets of natural acoustic environments and find empirically that it Gaussianizes distributions of magnitudes while decorrelating frequency bands. Secondly, we describe the asymptotic regimes of each component in PCEN: temporal integration, gain control, and dynamic range compression. Thirdly, we give practical advice for adapting PCEN parameters to the temporal properties of the noise to be mitigated, the signal to be enhanced, and the choice of time-frequency representation. As it converts a large class of real-world soundscapes into additive white Gaussian noise (AWGN), PCEN is a computationally efficient frontend for robust detection and classification of acoustic events in heterogeneous environments.},
+  file      = {:C\:/Users/seanh/Desktop/lostanlen_pcen_spl2018.pdf:PDF},
+  keywords  = {Acoustic noise, acoustic sensors, acoustic signal detection, signal classification, spectrogram},
+}
+
+ 
+@InProceedings{Adavanne2017,
+  author    = {Adavanne, Sharath and Drossos, Konstantinos and Çakir, Emre and Virtanen, Tuomas},
+  booktitle = {2017 25th {European} {Signal} {Processing} {Conference} ({EUSIPCO})},
+  title     = {Stacked convolutional and recurrent neural networks for bird audio detection},
+  year      = {2017},
+  month     = aug,
+  note      = {ISSN: 2076-1465},
+  pages     = {1729--1733},
+  abstract  = {This paper studies the detection of bird calls in audio segments using stacked convolutional and recurrent neural networks. Data augmentation by blocks mixing and domain adaptation using a novel method of test mixing are proposed and evaluated in regard to making the method robust to unseen data. The contributions of two kinds of acoustic features (dominant frequency and log mel-band energy) and their combinations are studied in the context of bird audio detection. Our best achieved AUC measure on five cross-validations of the development data is 95.5\% and 88.1\% on the unseen evaluation data.},
+  doi       = {10.23919/EUSIPCO.2017.8081505},
+  file      = {:Adavanne2017 - Stacked Convolutional and Recurrent Neural Networks for Bird Audio Detection.pdf:PDF},
+  issn      = {2076-1465},
+  keywords  = {Birds, Feature extraction, Training, Recurrent neural networks, Harmonic analysis},
+}
+
+@InProceedings{Baktashmotlagh2016,
+  author   = {Baktashmotlagh, Mahsa and Salzmann, Mathieu and Cvlab and Dogan, Urun and Kloft, Marius and Orabona, Francesco and Tommasi, Tatiana},
+  title    = {Distribution-Matching Embedding for Visual Domain Adaptation},
+  year     = {2016},
+  abstract = {Domain-invariant representations are key to addressing the domain shift problem where the training and test examples follow different distributions. Existing techniques that have attempted to match the distributions of the source and target domains typically compare these distributions in the original feature space. This space, however, may not be directly suitable for such a comparison, since some of the features may have been distorted by the domain shift, or may be domain specific. In this paper, we introduce a Distribution-Matching Embedding approach: An unsupervised domain adaptation method that overcomes this issue by mapping the data to a latent space where the distance between the empirical distributions of the source and target examples is minimized. In other words, we seek to extract the information that is invariant across the source and target data. In particular, we study two different distances to compare the source and target distributions: the Maximum Mean Discrepancy and the Hellinger distance. Furthermore, we show that our approach allows us to learn either a linear embedding, or a nonlinear one. We demonstrate the benefits of our approach on the tasks of visual object recognition, text categorization, and WiFi localization.},
+  file     = {:C\:/Users/seanh/Desktop/15-207.pdf:PDF},
+  keywords = {Domain Adaptation, Maximum Mean Discrepancy, Hellinger Distance, Distribution Matching, Domain Invariant Representations},
+  url      = {http://jmlr.org/papers/v17/15-207.html},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: protectedFlag:true;}
