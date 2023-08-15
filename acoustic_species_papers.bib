@@ -84,6 +84,19 @@
 }
 
  
+@Article{Bittner2023,
+  author   = {Bittner, Franca and Abeßer, Jakob},
+  title    = {An {Introduction} to {Unsupervised} {Domain} {Adaptation} in {Sound} and {Music} {Processing}},
+  year     = {2023},
+  month    = apr,
+  note     = {ZSCC: 0000000},
+  abstract = {Common machine learning models require large amounts of training data with samples representing the intended application scenario. However, these models often do not generalize well to novel data distributions caused by variations of the expected conditions. Such a lack of robustness can lead to a significant decrease in the model performance. This issue is known as domain shift and can be caused in the case of audio data by deviations of microphone characteristics or acoustic environments between data from the source domain (training data) and target domain (test data). Unsupervised domain adaptation (UDA) aims to restore the model performance by transferring knowledge from labeled samples of the source domain to unlabeled samples of a related target domain. We first provide an overview over basics and general approaches of UDA. Then, we study UDA for two audio analysis tasks: sound event detection (SED) and automatic music transcription (AMT) of piano music. Our results show that domain shift caused by microphone mismatch has a greater impact on the model performance for SED than AMT. As a possible cause we suspect that while SED analyzes the full spectral envelope, AMT examines only the harmonic peaks whose positions are less affected by domain shift.},
+  language = {en},
+  url      = {https://publica.fraunhofer.de/handle/publica/445495},
+  urldate  = {2023-08-14},
+}
+
+ 
 @Misc{2022,
   month    = jan,
   note     = {ZSCC: NoCitationData[s0]},
@@ -92,6 +105,22 @@
   language = {en},
   url      = {https://ai.googleblog.com/2022/01/separating-birdsong-in-wild-for.html},
   urldate  = {2023-08-08},
+}
+
+ 
+@TechReport{Yan2022,
+  author   = {Yan, Jing-ke and Wang, Xin and Wang, Qin and Qin, Qin and Li, Huang-he and Ye, Peng-fei and He, Yue-ping and Zeng, Jing},
+  title    = {Domain {Shift}-oriented {Machine} {Anomalous} {Sound} {Detection} {Model} {Based} on {Self}-{Supervised} {Learning}},
+  year     = {2022},
+  month    = sep,
+  note     = {ZSCC: 0000000 arXiv:2208.14812 [cs, eess] type: article},
+  abstract = {Thanks to the development of deep learning, research on machine anomalous sound detection based on self-supervised learning has made remarkable achievements. However, there are differences in the acoustic characteristics of the test set and the training set under different operating conditions of the same machine (domain shifts). It is challenging for the existing detection methods to learn the domain shifts features stably with low computation overhead. To address these problems, we propose a domain shift-oriented machine anomalous sound detection model based on self-supervised learning (TranSelf-DyGCN) in this paper. Firstly, we design a time-frequency domain feature modeling network to capture global and local spatial and time-domain features, thus improving the stability of machine anomalous sound detection stability under domain shifts. Then, we adopt a Dynamic Graph Convolutional Network (DyGCN) to model the inter-dependence relationship between domain shifts features, enabling the model to perceive domain shifts features efficiently. Finally, we use a Domain Adaptive Network (DAN) to compensate for the performance decrease caused by domain shifts, making the model adapt to anomalous sound better in the self-supervised environment. The performance of the suggested model is validated on DCASE 2020 task 2 and DCASE 2022 task 2.},
+  doi      = {10.48550/arXiv.2208.14812},
+  file     = {:Yan2022 - Domain Shift Oriented Machine Anomalous Sound Detection Model Based on Self Supervised Learning.pdf:PDF},
+  keywords = {Computer Science - Sound, Electrical Engineering and Systems Science - Audio and Speech Processing},
+  school   = {arXiv},
+  url      = {http://arxiv.org/abs/2208.14812},
+  urldate  = {2023-08-14},
 }
 
 @misc{wang2022debiased,
@@ -140,6 +169,21 @@
   urldate    = {2023-08-08},
 }
 
+@Article{Lauha2022,
+  author   = {Lauha, Patrik and Somervuo, Panu and Lehikoinen, Petteri and Geres, Lisa and Richter, Tobias and Seibold, Sebastian and Ovaskainen, Otso},
+  journal  = {Methods in Ecology and Evolution},
+  title    = {Domain-specific neural networks improve automated bird sound recognition already with small amount of local data},
+  year     = {2022},
+  number   = {12},
+  pages    = {2799--2810},
+  volume   = {13},
+  abstract = {Abstract An automatic bird sound recognition system is a useful tool for collecting data of different bird species for ecological analysis. Together with autonomous recording units (ARUs), such a system provides a possibility to collect bird observations on a scale that no human observer could ever match. During the last decades, progress has been made in the field of automatic bird sound recognition, but recognizing bird species from untargeted soundscape recordings remains a challenge. In this article, we demonstrate the workflow for building a global identification model and adjusting it to perform well on the data of autonomous recorders from a specific region. We show how data augmentation and a combination of global and local data can be used to train a convolutional neural network to classify vocalizations of 101 bird species. We construct a model and train it with a global data set to obtain a base model. The base model is then fine-tuned with local data from Southern Finland in order to adapt it to the sound environment of a specific location and tested with two data sets: one originating from the same Southern Finnish region and another originating from a different region in German Alps. Our results suggest that fine-tuning with local data significantly improves the network performance. Classification accuracy was improved for test recordings from the same area as the local training data (Southern Finland) but not for recordings from a different region (German Alps). Data augmentation enables training with a limited number of training data and even with few local data samples significant improvement over the base model can be achieved. Our model outperforms the current state-of-the-art tool for automatic bird sound classification. Using local data to adjust the recognition model for the target domain leads to improvement over general non-tailored solutions. The process introduced in this article can be applied to build a fine-tuned bird sound classification model for a specific environment.},
+  doi      = {https://doi.org/10.1111/2041-210X.14003},
+  eprint   = {https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/2041-210X.14003},
+  keywords = {autonomous recording units, bioacoustics, bio-monitoring, bird sound recognition, convolutional neural networks, deep learning, model fine-tuning},
+  url      = {https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/2041-210X.14003},
+}
+
  
 @TechReport{Conde2022,
   author   = {Conde, Marcos V. and Choi, Ui-Jin},
@@ -154,6 +198,23 @@
   school   = {arXiv},
   url      = {http://arxiv.org/abs/2206.11260},
   urldate  = {2023-08-07},
+}
+
+ 
+@TechReport{Liu2021,
+  author     = {Liu, Xiaofeng and Guo, Zhenhua and Li, Site and Xing, Fangxu and You, Jane and Kuo, C.-C. Jay and Fakhri, Georges El and Woo, Jonghye},
+  title      = {Adversarial {Unsupervised} {Domain} {Adaptation} with {Conditional} and {Label} {Shift}: {Infer}, {Align} and {Iterate}},
+  year       = {2021},
+  month      = aug,
+  note       = {ZSCC: 0000048 arXiv:2107.13469 [cs] type: article},
+  abstract   = {In this work, we propose an adversarial unsupervised domain adaptation (UDA) approach with the inherent conditional and label shifts, in which we aim to align the distributions w.r.t. both \$p(x{\textbar}y)\$ and \$p(y)\$. Since the label is inaccessible in the target domain, the conventional adversarial UDA assumes \$p(y)\$ is invariant across domains, and relies on aligning \$p(x)\$ as an alternative to the \$p(x{\textbar}y)\$ alignment. To address this, we provide a thorough theoretical and empirical analysis of the conventional adversarial UDA methods under both conditional and label shifts, and propose a novel and practical alternative optimization scheme for adversarial UDA. Specifically, we infer the marginal \$p(y)\$ and align \$p(x{\textbar}y)\$ iteratively in the training, and precisely align the posterior \$p(y{\textbar}x)\$ in testing. Our experimental results demonstrate its effectiveness on both classification and segmentation UDA, and partial UDA.},
+  annote     = {Comment: Accepted to ICCV 2021},
+  file       = {:Liu2021 - Adversarial Unsupervised Domain Adaptation with Conditional and Label Shift_ Infer, Align and Iterate.pdf:PDF},
+  keywords   = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Artificial Intelligence, Computer Science - Machine Learning, Computer Science - Multimedia},
+  school     = {arXiv},
+  shorttitle = {Adversarial {Unsupervised} {Domain} {Adaptation} with {Conditional} and {Label} {Shift}},
+  url        = {http://arxiv.org/abs/2107.13469},
+  urldate    = {2023-08-15},
 }
 
  
@@ -205,6 +266,23 @@
   school   = {arXiv},
   url      = {http://arxiv.org/abs/2107.04878},
   urldate  = {2023-08-07},
+}
+
+ 
+@TechReport{Abesser2021,
+  author   = {Abeßer, Jakob and Müller, Meinard},
+  title    = {Towards {Audio} {Domain} {Adaptation} for {Acoustic} {Scene} {Classification} using {Disentanglement} {Learning}},
+  year     = {2021},
+  month    = oct,
+  note     = {ZSCC: 0000004 arXiv:2110.13586 [cs, eess] type: article},
+  abstract = {The deployment of machine listening algorithms in real-life applications is often impeded by a domain shift caused for instance by different microphone characteristics. In this paper, we propose a novel domain adaptation strategy based on disentanglement learning. The goal is to disentangle task-specific and domain-specific characteristics in the analyzed audio recordings. In particular, we combine two strategies: First, we apply different binary masks to internal embedding representations and, second, we suggest a novel combination of categorical cross-entropy and variance-based losses. Our results confirm the disentanglement of both tasks on an embedding level but show only minor improvement in the acoustic scene classification performance, when training data from both domains can be used. As a second finding, we can confirm the effectiveness of a state-of-the-art unsupervised domain adaptation strategy, which performs across-domain adaptation on a feature-level instead.},
+  annote   = {Comment: submitted to ICASSP 2022},
+  doi      = {10.48550/arXiv.2110.13586},
+  file     = {:Abesser2021 - Towards Audio Domain Adaptation for Acoustic Scene Classification Using Disentanglement Learning.pdf:PDF},
+  keywords = {Electrical Engineering and Systems Science - Audio and Speech Processing, Computer Science - Sound},
+  school   = {arXiv},
+  url      = {http://arxiv.org/abs/2110.13586},
+  urldate  = {2023-08-14},
 }
 
  
